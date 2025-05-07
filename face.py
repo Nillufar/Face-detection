@@ -3,7 +3,8 @@ import time
 from datetime import datetime
 
 # Load Haar cascades
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
 
 # Initialize timers
 study_start_time = None
